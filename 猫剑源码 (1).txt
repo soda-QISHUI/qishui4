@@ -74,12 +74,12 @@ local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "欢迎使用猫剑脚本"
+msg.Text = "欢迎使用汽水脚本"
 wait(1.8)
 msg:Destroy()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "作者:猫王 支持60款游戏"
+msg.Text = "作者:汽水 支持60款游戏"
 wait(1.8)
 msg:Destroy()
 
@@ -129,7 +129,7 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "猫剑脚本", IntroIcon = "rbxassetid://4335482575", HidePremium = false, SaveConfig = true,IntroText = "猫剑脚本", ConfigFolder = "猫剑脚本"})
+local Window = OrionLib:MakeWindow({Name = "汽水脚本", IntroIcon = "rbxassetid://4335482575", HidePremium = false, SaveConfig = true,IntroText = "汽水脚本", ConfigFolder = "汽水脚本"})
 
 local about = Window:MakeTab({
     Name = "公告",
@@ -138,9 +138,9 @@ local about = Window:MakeTab({
 
 })
 
-about:AddParagraph("作者: 猫王")
-about:AddParagraph("副作者: 小天牛叔小魔阴星")
-about:AddParagraph("制作者: 纳西妲")
+about:AddParagraph("作者: 汽水")
+about:AddParagraph("副作者: 风御")
+about:AddParagraph("制作者: 风御")
 
 local Tab = Window:MakeTab({
     Name = "通用功能",
