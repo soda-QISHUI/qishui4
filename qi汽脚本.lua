@@ -58,9 +58,9 @@ local about = UITab1:section("『玩家信息』",false)
 
 about:Label("你现在的服务器id:"..game.GameId)
 
-local UITab2 = win:Tab("『公告』",'7734068321')
+local UITab1 = win:Tab("『公告』",'7734068321')
 
-local about = UITab2:section("『公告』",true)
+local about = UITab1:section("『公告』",true)
 
 about:Label("感谢支持汽脚本")
 about:Label("已修复完bug")
@@ -687,8 +687,10 @@ end)
 
 about:Button("穿防止点不到",function()
 end)
-local UITab3 = win:Tab("音乐",'4483345998')
-local about = UITab3:section("每个中囯人必须听过的音乐音乐",true)
+
+local UITab1 = win:Tab("音乐",'4483345998')
+
+local about = UITab1:section("每个中囯人必须听过的音乐音乐",true)
 
 about:Button("义勇军进行曲",function()
    local sound = Instance.new("Sound")
