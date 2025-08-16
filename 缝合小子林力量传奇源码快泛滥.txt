@@ -1,9 +1,9 @@
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/jrdKakD6')))()
 
 OrionLib:MakeNotification({
-	Name = "林是大帅比",
-	Content = "林天帝nb",
-	Image = "rbxassetid://15613380753",
+	Name = "烁秋木",
+	Content = "烁秋木",
+	Image = "rbxassetid://118635910294375",
 	Time = 5
 })
 
@@ -11,7 +11,7 @@ local Window = OrionLib:MakeWindow({Name = "林力量", HidePremium = false, Sav
 
 local Home = Window:MakeTab({
 	Name = "主要功能",
-	Icon = "rbxassetid://15613380753",
+	Icon = "rbxassetid://118635910294375",
 	PremiumOnly = false
 })
 
